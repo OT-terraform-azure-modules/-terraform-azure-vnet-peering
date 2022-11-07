@@ -6,5 +6,5 @@ resource "azurerm_virtual_network_peering" "vnet_peering" {
   allow_virtual_network_access = var.allow_virtual_network_access
   allow_forwarded_traffic      = var.allow_forwarded_traffic
   use_remote_gateways          = var.use_remote_gateways
-  tag                         = var.tag_map
+  tags                         = var.tag_map
 }
