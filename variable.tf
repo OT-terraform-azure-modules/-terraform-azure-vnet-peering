@@ -36,8 +36,5 @@ variable "use_remote_gateways" {
   default     = false
 }
 
-variable "tag_map" {
-  type        = map(string)
-  description = "(Optional) Tags for Peering"
-}
+
 
